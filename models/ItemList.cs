@@ -13,5 +13,6 @@ namespace TodoListQL.models
         public string Name { get; set; }
 
         public virtual ICollection<ItemData> ItemDatas { get; set; }
+        //item list have item datas
     }
 }
